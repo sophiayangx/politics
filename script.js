@@ -10,12 +10,12 @@ $.ajax({
   }
 })
 
-//var arr = []
-//arr.push(1, 2)
-//console.log(arr)
-//
-//data.objects = [{firstname:"ronald", height: "7"}, {name:"sophia"}]
-//console.log(object.firstname)
+var arr = []
+arr.push(1, 2)
+console.log(arr)
+
+data.objects = [{firstname:"ronald", height: "7"}, {name:"sophia"}]
+console.log(object.firstname)
 
 //var fill = d3.scale.category20();
 
