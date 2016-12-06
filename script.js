@@ -16,7 +16,10 @@ console.log(arr)
 
 
 
-data.objects.forEach
+data.objects.forEach(function(objects) {
+  arr.push(objects.firstname)
+  console.log(object.firtname)
+  )})
 
 //var fill = d3.scale.category20();
 
