@@ -2,23 +2,20 @@ $.ajax({
   method: "GET",
   url: "https://www.govtrack.us/api/v2/person",
   success: function(data) {    
-////    data.objects.forEach(function(object) {
-////      console.log(object)
-//    })
     var arr = []
-    data.objects.forEach(function(objects) {
-      arr.push(objects.firstname)
+    data.objects.forEach(function(object) {
+      arr.push(object.firstname)
       console.log(object.firtname)
     })
   }
 })
 
-var arr = []
-arr.push(1, 2)
-console.log(arr)
-
-data.objects = [{firstname:"ronald", height: "7"}, {name:"sophia"}]
-console.log(object.firstname)
+//var arr = []
+//arr.push(1, 2)
+//console.log(arr)
+//
+//data.objects = [{firstname:"ronald", height: "7"}, {name:"sophia"}]
+//console.log(object.firstname)
 
 //var fill = d3.scale.category20();
 
