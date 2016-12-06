@@ -6,13 +6,17 @@ $.ajax({
 ////      console.log(object)
 //    })
     data.objects = [{firstname:"ronald", height: "7"}, {name:"sophia"}]
-    console.log(objects.firstname)
+    console.log(object.firstname)
   }
 })
 
 var arr = []
-arr.push(1)
+arr.push(1, 2)
 console.log(arr)
+
+
+
+data.objects.forEach
 
 //var fill = d3.scale.category20();
 
