@@ -6,7 +6,6 @@ $.ajax({
     data.objects.forEach(function(object) {
       arr.push(object.firstname)
       console.log(object.firstname)
-      
     })
   }
 })
