@@ -23,9 +23,9 @@ function makeCloud(words) {
   .font("Impact")
   .fontSize(function(d) { return d.size; })
   .on("end", draw);
-//
-//  layout.start(); 
-//}
+
+  layout.start(); 
+}
 //
 //function draw(words) {
 //  d3.select("body").append("svg")
@@ -44,4 +44,4 @@ function makeCloud(words) {
 //    return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
 //  })
 //    .text(function(d) { return d.text; });
-//}
+}
