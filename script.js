@@ -8,7 +8,10 @@ $.ajax({
   }
 })
 
-data.objects = [{name:"ronald"}]
+data.objects = [{firstname:"ronald"}, {name:"sophia"}]
+
+var arr = []
+arr.push(1)
 
 //var fill = d3.scale.category20();
 
