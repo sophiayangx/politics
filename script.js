@@ -2,13 +2,13 @@ $.ajax({
   method: "GET",
   url: "https://www.govtrack.us/api/v2/person",
   success: function(data) {    
-    data.objects.forEach(function(object) {
-      console.log(object)
-    })
+////    data.objects.forEach(function(object) {
+////      console.log(object)
+//    })
   }
 })
 
-data.objects = [{firstname:"ronald"}, {name:"sophia"}]
+data.objects = [{firstname:"ronald", height: "7"}, {name:"sophia"}]
 
 var arr = []
 arr.push(1)
@@ -49,4 +49,4 @@ arr.push(1)
 //    return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
 //  })
 //    .text(function(d) { return d.text; });
-}
+//}
