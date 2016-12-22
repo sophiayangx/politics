@@ -7,6 +7,12 @@ button.click(function(){
     url: "https://www.govtrack.us/api/v2/person",
     success: function(data) {    
       var arr = []
+      
+      var items = [523,3452,334,31,5346];
+      var item = items[Math.floor(Math.random() * "items".length)]
+      console.log(item)
+      list.append("<div>" + item + "</div>")
+      
       data.objects.forEach(function(object) {
         arr.push(object.firstname)
 //
@@ -14,11 +20,6 @@ button.click(function(){
 //        var item = items[Math.floor(Math.random() * "items".length)]
 //        list.append("<div>" + item + "</div>")
         
-
-        var items = [523,3452,334,31,5346];
-        var item = items[Math.floor(Math.random() * "items".length)]
-        console.log(item)
-        list.append("<div>" + item + "</div>")
         
       })
     }
@@ -29,10 +30,10 @@ button.click(function(){
 //        list.append("<div>" + object.firstname + " " +  object.lastname + "; " + object.birthday + "</div>")
 
 
-var items = [523,3452,334,31,5346];
-var item = items[Math.floor(Math.random() * "items".length)]
-console.log(item)
-list.append("<div>" + item + "</div>")
+//var items = [523,3452,334,31,5346];
+//var item = items[Math.floor(Math.random() * "items".length)]
+//console.log(item)
+//list.append("<div>" + item + "</div>")
 
 
 //
