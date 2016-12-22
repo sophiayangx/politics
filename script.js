@@ -12,7 +12,7 @@ button.click(function(){
         
         var items = ["hi", "bye", "cool", 123, 234, 222];
         var item = items[Math.floor(Math.random() * "items".length)]
-        cons
+        console.log(item)
 //        list.append("<div>" + item + "</div>")
         
       })
@@ -24,9 +24,9 @@ button.click(function(){
 //        list.append("<div>" + object.firstname + " " +  object.lastname + "; " + object.birthday + "</div>")
 
 
-var items = [523,3452,334,31,5346];
-var item = items[Math.floor(Math.random() * "items".length)]
-console.log(item)
+//var items = [523,3452,334,31,5346];
+//var item = items[Math.floor(Math.random() * "items".length)]
+//console.log(item)
 
 //
 //var arr = []
