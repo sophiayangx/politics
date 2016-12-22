@@ -12,8 +12,7 @@ button.click(function(){
 
         var items = [object.firstname];
         var item = items[Math.floor(Math.random() * "items".length)]
-        console.log(item)
-//        list.append("<div>" + item + "</div>")
+        list.append("<div>" + item + "</div>")
         
       })
     }
