@@ -9,13 +9,11 @@ button.click(function(){
       var arr = []
       data.objects.forEach(function(object) {
         arr.push(object.firstname)
-        console.log(object.firstname)
+        list.append("<div>" + object.firstname + "</div>")
       })
     }
   })
 });
-
-list.append("<div>" + newComment + "</div>")
 
 //
 //var arr = []
