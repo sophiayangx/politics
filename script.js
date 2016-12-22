@@ -12,14 +12,15 @@ button.click(function(){
         
         var items = [object.firstname];
         var item = items[Math.floor(Math.random() * "items".length)]
-        list.append("<div>" + object.firstname + " " +  object.lastname + "; " + object.birthday + "</div>")
+        list.append("<div>" + item + "</div>")
         
-//        list.append("<div>" + object.firstname + " " +  object.lastname + "; " + object.birthday + "</div>")
       })
     }
   })
 });
 
+
+//        list.append("<div>" + object.firstname + " " +  object.lastname + "; " + object.birthday + "</div>")
 
 //
 //var items = [523,3452,334,31,5346];
