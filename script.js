@@ -9,18 +9,13 @@ button.click(function(){
       var arr = []
       data.objects.forEach(function(object) {
         arr.push(object.firstname)
-        list.append("<div>" + object.firstname + " " +  object.lastname + "; " + object.birthday + "</div>")
-
-//        var items = ["sally"];
-//        var item = items[Math.floor(Math.random() * "items".length)]
-//        list.append("<div>" + item + "</div>")
-
+        list.append("<div>" + object.firstname + "</div>")
       })
     }
   })
 });
 
-
+//" " +  object.lastname + "; " + object.birthday +
 
 //var items = [523,3452,334,31,5346];
 //var item = items[Math.floor(Math.random() * "items".length)]
