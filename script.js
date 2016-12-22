@@ -10,7 +10,9 @@ $.ajax({
   }
 })
 
-
+button.click(function(){
+  var webpage = $(parent.document.body)
+  webpage.find("div").css({border:"1px solid yellow"})
 
 //
 //var arr = []
