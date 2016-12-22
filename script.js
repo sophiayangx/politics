@@ -11,7 +11,7 @@ button.click(function(){
         arr.push(object.firstname)
 
         var items = [object.firstname];
-        var item = items[Math.floor(1.2)]
+        var item = items[Math.floor(Math.random() * "items".length)]
         console.log(item)
 //        list.append("<div>" + item + "</div>")
         
