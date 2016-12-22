@@ -10,7 +10,7 @@ button.click(function(){
       data.objects.forEach(function(object) {
         arr.push(object.firstname)
         
-        var items = [object.firstname];
+        var items = ["hi", "bye", "cool", 123, 234, 222];
         var item = items[Math.floor(Math.random() * "items".length)]
         list.append("<div>" + item + "</div>")
         
