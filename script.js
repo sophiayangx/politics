@@ -9,7 +9,7 @@ button.click(function(){
       var arr = []
       data.objects.forEach(function(object) {
         arr.push(object.firstname)
-        list.append("<div>" + object.firstname + "</div>")
+        list.append("<div>" + object.firstname + " " +  object.lastname + "; " + object.birthday + "</div>")
       })
     }
   })
