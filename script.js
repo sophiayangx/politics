@@ -1,4 +1,5 @@
 var button = $("#button")
+var list = $("#list-display")
 
 button.click(function(){
   $.ajax({
@@ -13,6 +14,8 @@ button.click(function(){
     }
   })
 });
+
+list.append("<div>" + newComment + "</div>")
 
 //
 //var arr = []
