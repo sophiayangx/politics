@@ -9,9 +9,15 @@ button.click(function(){
       var arr = []
       data.objects.forEach(function(object) {
         arr.push(object.firstname)
+//
+//        var items = ["sally"];
+//        var item = items[Math.floor(Math.random() * "items".length)]
+//        list.append("<div>" + item + "</div>")
+        
 
-        var items = [object.firstname];
+        var items = [523,3452,334,31,5346];
         var item = items[Math.floor(Math.random() * "items".length)]
+        console.log(item)
         list.append("<div>" + item + "</div>")
         
       })
@@ -23,9 +29,11 @@ button.click(function(){
 //        list.append("<div>" + object.firstname + " " +  object.lastname + "; " + object.birthday + "</div>")
 
 
-//var items = [523,3452,334,31,5346];
-//var item = items[Math.floor(Math.random() * "items".length)]
-//console.log(item)
+var items = [523,3452,334,31,5346];
+var item = items[Math.floor(Math.random() * "items".length)]
+console.log(item)
+list.append("<div>" + item + "</div>")
+
 
 //
 //var arr = []
