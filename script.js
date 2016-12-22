@@ -15,7 +15,7 @@ button.click(function(){
   })
 });
 
-var item = Math.floor(Math.random()* "items".length)
+var item = Math.floor(Math.random() * "items".length)
 console.log(item)
 
 //
