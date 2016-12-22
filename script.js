@@ -20,9 +20,11 @@ button.click(function(){
   })
 });
 
-var items = [523,3452,334,31,5346];
-var item = items[Math.floor(Math.random() * "items".length)]
-console.log(item)
+
+//
+//var items = [523,3452,334,31,5346];
+//var item = items[Math.floor(Math.random() * "items".length)]
+//console.log(item)
 
 //
 //var arr = []
