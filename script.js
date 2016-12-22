@@ -6,12 +6,12 @@ button.click(function(){
     method: "GET",
     url: "https://www.govtrack.us/api/v2/person",
     success: function(data) {    
-      var arr = [123, 1,2,3,4]
+      var arr = []
       data.objects.forEach(function(object) {
         arr.push(object.firstname)
 
         var items = [object.firstname];
-        var item = items[Math.floor(Math.random() * "items".length)]
+        var item = items[Math.floor(Math.random())]
         console.log(item)
 //        list.append("<div>" + item + "</div>")
         
