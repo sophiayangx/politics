@@ -15,6 +15,9 @@ button.click(function(){
   })
 });
 
+var item = Math.floor(Math.random()* "items".length)
+console.log(item)
+
 //
 //var arr = []
 //arr.push(1, 2)
