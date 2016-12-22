@@ -6,8 +6,8 @@ button.click(function(){
     method: "GET",
     url: "https://www.govtrack.us/api/v2/person",
     success: function(data) {    
-      var arr = []
-      function(object) {
+      var arr = [123, 1,2,3,4]
+      data.objects.forEach(function(object) {
         arr.push(object.firstname)
 
         var items = [object.firstname];
