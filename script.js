@@ -1,18 +1,28 @@
-$.ajax({
-  method: "GET",
-  url: "https://www.govtrack.us/api/v2/person",
-  success: function(data) {    
-    var arr = []
-    data.objects.forEach(function(object) {
-      arr.push(object.firstname)
-      console.log(object.firstname)
-    })
-  }
-})
+//$.ajax({
+//  method: "GET",
+//  url: "https://www.govtrack.us/api/v2/person",
+//  success: function(data) {    
+//    var arr = []
+//    data.objects.forEach(function(object) {
+//      arr.push(object.firstname)
+//      console.log(object.firstname)
+//    })
+//  }
+//})
 
 button.click(function(){
-  var webpage = $(parent.document.body)
-  webpage.find("div").css({border:"1px solid yellow"})
+  $.ajax({
+    method: "GET",
+    url: "https://www.govtrack.us/api/v2/person",
+    success: function(data) {    
+      var arr = []
+      data.objects.forEach(function(object) {
+        arr.push(object.firstname)
+        console.log(object.firstname)
+      })
+    }
+  })
+});
 
 //
 //var arr = []
