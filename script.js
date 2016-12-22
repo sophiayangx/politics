@@ -9,6 +9,11 @@ button.click(function(){
       var arr = []
       data.objects.forEach(function(object) {
         arr.push(object.firstname)
+        
+        var items = [object.firstname];
+        var item = items[Math.floor(Math.random() * "items".length)]
+        console.log(item)
+        
         list.append("<div>" + object.firstname + " " +  object.lastname + "; " + object.birthday + "</div>")
       })
     }
